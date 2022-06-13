@@ -1,0 +1,92 @@
+body {
+    font-family:'Oswald', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #515a63;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 20px;
+
+}
+
+
+/* <-----Card-----> */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #04293A;
+    width: 35%;
+    height: 60%;
+    padding: 4vh;
+    border-radius: 2%;
+    border: solid 1px #064663;
+}
+
+.card img {
+    width: 50%;
+    height: 50%;
+}
+
+button
+{
+font-family:'Oswald', sans-serif;
+}
+
+#calcular-total {
+    background-color: #064663;
+    color: white;
+    padding: 2vh;
+}
+
+
+#calcular-total:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+#calcular-total:active{
+    background-color: powderblue;
+    color: black;
+}
+
+#select-color {
+    width: 20%;
+}
+
+
+/* <-----Resumen-----> */
+
+.resumen {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 10vh;
+    background-color: #04293A;
+    margin-left: 5%;
+    width: 20%;
+    height: 50%;
+    padding: 3vh;
+    border-radius: 2%;
+    border: solid 1px #064663;
+}
+
+
+
+.color-final {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #3b4ba3;
+    border: 1px solid black;
+}   
